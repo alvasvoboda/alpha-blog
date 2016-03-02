@@ -12,6 +12,8 @@ Rails.application.routes.draw do
    
   get 'about', to: 'pages#about'
   
+  resources :articles
+  
   # Example of named route test can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
